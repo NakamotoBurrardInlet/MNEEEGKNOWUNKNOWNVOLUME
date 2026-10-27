@@ -17,7 +17,7 @@ class TelemetryNodeEngine:
     """
     def __init__(
         self, 
-        ledger_path: str = "node_ledger.jsonl", 
+        ledger_path: str = "node_ledger.json", 
         max_queue_size: int = 5000,
         node_tag: str = "mne-eeg-omega-silent-knowing-the-unknown",
         bind_ip: str = "0.0.0.0",
